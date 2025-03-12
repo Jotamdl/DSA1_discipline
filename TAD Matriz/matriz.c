@@ -63,7 +63,6 @@ bool matriz_equals(Matriz* matriz1, Matriz* matriz2) {
     for (int i = 0; i < matriz1->rows; i++) {
         for (int j = 0; j < matriz1->cols; j++) {
             if (matriz1->array[i][j] != matriz2->array[i][j]) {
-                printf("\n%f != %f\n",matriz1->array[i][j],matriz2->array[i][j]);
                 return false;
             }
         }
